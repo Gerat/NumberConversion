@@ -1,0 +1,15 @@
+spring:
+  h2:
+    console:
+      enabled: true
+
+  datasource:
+    url: jdbc:h2:mem:numdb
+    driver-class-name: org.h2.Driver
+    username: num
+    password: num
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: h2
